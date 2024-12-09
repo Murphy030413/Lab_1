@@ -1,0 +1,64 @@
+---
+title: "Testing"
+author: "Murphy Chen"
+date: "2024-09-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+cat(
+  "Murphy (Mofei) Chen\n",
+  "murphy.chen@emory.edu | 470-501-0867 | linkedin.com/in/murphy-mofei-chen\n",
+  "\n",
+  "Education\n",
+  "Emory University, Atlanta, GA\n",
+  "Bachelor of Science in Statistics, Bachelor of Arts in Economics (Expected May 2025)\n",
+  "GPA: 3.89/4.00\n",
+  "\n",
+  "Professional Experience\n",
+  "Data Analyst Intern, Office of the DeKalb County District Attorney, Atlanta, GA (June 2024 – Present)\n",
+  "- Managed and analyzed criminal databases, focusing on recidivism rates under the COVID-19 Backlog Reduction Policy.\n",
+  "- Presented statistical insights to DA Sherry Boston to inform policy decisions.\n",
+  "\n",
+  "Data Analytics & Compliance Intern, China Resources SZITIC Trust Co., Ltd., Beijing, China (June 2023 – August 2023)\n",
+  "- Analyzed financial product performance and user risk profiles, ensuring compliance with industry regulations.\n",
+  "\n",
+  "Projects\n",
+  "COVID-19 Backlog Reduction Policy Analysis, Emory QTM Capstone\n",
+  "- Conducted regression and longitudinal analysis on prosecutorial data, delivering policy recommendations.\n",
+  "\n",
+  "Fridge Management App (Pantry Pal)\n",
+  "- Developed a web app with image recognition, recipe recommendations, and AWS deployment.\n",
+  "\n",
+  "Job Matcher NLP Tool\n",
+  "- Created a resume-parsing engine with intelligent job matching based on NLP techniques.\n",
+  "\n",
+  "Skills\n",
+  "Languages: English, Chinese, Japanese\n",
+  "Technical: Java, Python, R, SQL, Spring Boot, AWS\n"
+)
+```
+
